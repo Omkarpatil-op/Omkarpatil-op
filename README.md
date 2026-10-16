@@ -1,131 +1,142 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Omkar Patil — Backend Systems, Applied AI, Product Engineering" width="100%" />
+  <img src="assets/profile-banner.svg" alt="Omkar Patil — Software Engineering, backend systems, applied AI and product development" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/Omkarpatil-op">GitHub</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/omkarpatil29/">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:code.omkarp@gmail.com">Email</a>
+  <a href="https://github.com/Omkarpatil-op"><img src="https://img.shields.io/badge/GitHub-Explore%20my%20code-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/omkarpatil29/"><img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:code.omkarp@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
-
-## I build software where performance meets real-world usefulness.
-
-I'm a final-year Computer Engineering undergraduate at **Vishwaniketan (ViMEET), University of Mumbai** (CGPA **8.30/10**). My work spans backend APIs, data-intensive workflows, cross-platform apps, and AI systems that turn complex questions into useful experiences.
-
-I care about the engineering behind the demo: **measurable performance, clear interfaces, graceful fallbacks, and maintainable systems.**
 
 <p align="center">
-  <img src="assets/engineering-impact.svg" alt="Engineering impact graph: 30 percent lower API latency, 25 percent lower retrieval time, 20 percent fewer redundant queries, 18 percent quiz-score improvement, 2.5x pipeline scaling and about 40 hours saved per month." width="100%" />
+  <strong>Final-year Computer Engineering undergraduate · University of Mumbai</strong><br />
+  <sub>CGPA 8.30/10 · Software Development · Backend Systems · Applied AI</sub>
 </p>
 
-## Selected projects
+---
 
-### 🏆 AACHARYA_AI — AI Lecturer Clone
-**VAP ViSION 2026 · Institute-level Best Project**
+## The kind of engineer I'm becoming
 
-An AI-supported teaching platform where students can ask questions through text or images and receive structured explanations with visual and voice-based outputs.
+I like building software that has to work beyond the happy path: APIs that stay responsive, integrations that fail gracefully, and product experiences that solve a real problem. My work spans backend development, data workflows, Flutter applications, and AI-powered learning systems.
 
-- Built a multimodal flow using **Next.js 14, TypeScript, Python, MongoDB, and Three.js**.
-- Designed a reasoning fallback path: **Groq → Gemini → local heuristic fallback**.
-- Added image-question parsing with Gemini Vision OCR, speech generation with **XTTS v2**, lip-sync support with **Rhubarb**, optional talking-head video via **SadTalker**, and 3D mesh generation via **TripoSR**.
-- Added resilience paths for data and 3D assets (MongoDB → JSON fallback; TripoSR → template GLB fallback).
+I'm pursuing **Software Development Engineer / Backend Engineer opportunities** where I can contribute to strong engineering teams, take ownership end-to-end, and keep improving through code reviews, measurement, and shipping.
 
-**Engineering theme:** AI orchestration, multimodal interfaces, and graceful degradation when an integration is unavailable.
+<p align="center">
+  <img src="assets/engineering-impact.svg" width="100%" alt="Selected engineering outcomes: API latency reduced by 30 percent, portfolio retrieval time reduced by 25 percent, redundant queries reduced by 20 percent, SmartSeed quiz scores improved by 18 percent, pipelines scaled 2.5 times, and around 40 hours saved monthly." />
+</p>
 
-### 📚 SmartSeed — Adaptive Learning for K–8
-An AI-powered learning app focused on adaptive study plans, personalized recommendations, and real-time learning analytics.
+## Selected work
 
-- Served **30+ learners** in the reported rollout.
-- Quiz scores improved by **18% over 60 days**.
-- Parent check-in time decreased by **20%** through real-time analytics.
-- Built with **Flutter, Dart, Firebase, TensorFlow, and adaptive algorithms**.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <img src="assets/aacharya-card.svg" alt="AACHARYA AI project artwork" width="100%" />
+      <h3 align="center">AACHARYA_AI</h3>
+      <p align="center"><sub>VAP ViSION 2026 · Best Project</sub></p>
+      An AI teaching platform that turns text- or image-based questions into structured explanations, visual demonstrations, and voice-based learning outputs.
+      <p><strong>Engineering:</strong> multimodal inputs, LLM fallback routing, Python workers, voice generation, 3D assets.</p>
+      <p><sub>Next.js · TypeScript · Python · MongoDB · Three.js · Gemini · Groq · XTTS</sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <img src="assets/smartseed-card.svg" alt="SmartSeed project artwork" width="100%" />
+      <h3 align="center">SmartSeed</h3>
+      <p align="center"><sub>Adaptive learning · K–8</sub></p>
+      A learning app with adaptive study plans, personalized recommendations, and real-time analytics to help learners and parents see progress.
+      <p><strong>Reported outcome:</strong> 30+ learners; quiz scores improved 18% over 60 days and parent check-in time decreased 20%.</p>
+      <p><sub>Flutter · Dart · Firebase · TensorFlow · Adaptive algorithms</sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <img src="assets/zhatpat-card.svg" alt="Zhatpat project artwork" width="100%" />
+      <h3 align="center">Zhatpat</h3>
+      <p align="center"><sub>VAP ViSION 2025 · Best Application</sub></p>
+      A home-meal marketplace connecting customers with home chefs, featuring chef onboarding and live GPS-based delivery tracking.
+      <p><strong>Reported outcome:</strong> 50+ users, order refresh under 4 seconds, and 20% improvement in satisfaction scores.</p>
+      <p><sub>Flutter · Dart · Firebase Realtime Database · Android</sub></p>
+    </td>
+  </tr>
+</table>
 
-**Engineering theme:** translating user activity into personalized learning experiences and measurable feedback.
+## AACHARYA_AI — under the hood
 
-### 🍱 Zhatpat — Home Meal Delivery
-A mobile platform connecting users with home chefs, with live GPS tracking and chef onboarding.
+<p align="center">
+  <img src="assets/aacharya-architecture.svg" width="100%" alt="AACHARYA AI architecture: user text or image input, Next.js API, Gemini Vision OCR for images, Groq to Gemini to local reasoning fallback, output orchestration, visual primitives, speech, talking-head video and 3D assets, with storage and asset fallbacks." />
+</p>
 
-- Supported **50+ users** in the reported project rollout.
-- Kept order refreshes **under 4 seconds**.
-- Reported a **20% increase in satisfaction scores**.
-- Won **VAP ViSION 2025 — Best Application**, selected from **30+ institute projects**.
-- Built with **Flutter, Dart, and Firebase Realtime Database**.
-
-**Engineering theme:** responsive real-time product flows for a two-sided marketplace.
+The interesting problem here is not only generating an answer; it is **orchestrating multiple capabilities without making the experience fragile**. The reasoning path can fall back from Groq to Gemini and then to a local heuristic, while data and 3D asset paths have their own fallbacks. The generated 3D mesh and talking-head video are separate output paths.
 
 ## Professional experience
 
 ### Springer Capital — Backend Development Intern
-*September–December 2025*
+<sub>September–December 2025</sub>
 
 - Architected **3 REST APIs** with connection pooling, reducing response latency by **30% under peak load**.
-- Improved an investment-portfolio database schema, reducing retrieval time by **25%** and redundant finance queries by **20%**.
-- Scaled data-validation pipelines by **2.5×**, saving the operations team approximately **40 hours per month**.
+- Overhauled an investment-portfolio database schema, cutting retrieval time by **25%** and redundant finance queries by **20%**.
+- Scaled data-validation pipelines by **2.5×**, saving operations approximately **40 hours per month**.
 - Delivered **4 sprint milestones** on schedule and received a **Letter of Recommendation** from the Investment Director.
 
-## Public code highlights
+## Public repositories worth exploring
 
-These repositories are available to inspect directly:
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Omkarpatil-op/Bharatlink">BharatLink CRM ↗</a></h3>
+      Java 17 and Spring Boot CRM with customer management, email notifications, and Google Meet scheduling.
+      <p><sub>Java · Spring Boot · MySQL · Thymeleaf · Google Calendar API</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Omkarpatil-op/chess_elite">Chess Elite ↗</a></h3>
+      Flutter/Dart chess app exploring legal move generation, minimax with alpha-beta pruning, time controls, and real-time multiplayer architecture.
+      <p><sub>Flutter · Dart · Search algorithms · WebSockets</sub></p>
+    </td>
+  </tr>
+</table>
 
-- **[BharatLink CRM](https://github.com/Omkarpatil-op/Bharatlink)** — Java 17, Spring Boot, MySQL, Thymeleaf, email notifications, and Google Meet scheduling.
-- **[Chess Elite](https://github.com/Omkarpatil-op/chess_elite)** — Flutter/Dart chess app exploring legal-move generation, minimax with alpha-beta pruning, time controls, and real-time multiplayer architecture.
-- **[More repositories](https://github.com/Omkarpatil-op?tab=repositories)** — additional experiments and projects.
+<p align="center"><a href="https://github.com/Omkarpatil-op?tab=repositories">Explore all repositories →</a></p>
 
-## How AACHARYA_AI fits together
+## My engineering toolkit
 
-```mermaid
-flowchart LR
-    U[Student asks by text or image] --> API[Next.js 14 API route]
-    API -->|Image input| OCR[Gemini Vision OCR]
-    API -->|Text input| R[Reasoning router]
-    OCR --> R
-    subgraph AI[Reasoning and resilience]
-      R --> G[Groq]
-      G -. fallback .-> GE[Gemini]
-      GE -. fallback .-> H[Local heuristic]
-    end
-    G --> E[Structured explanation]
-    GE --> E
-    H --> E
-    E --> O[Output orchestration]
-    O --> V[Visual primitives]
-    O --> S[XTTS v2 speech + Rhubarb lip sync]
-    O --> T[SadTalker talking-head video]
-    O --> M[TripoSR 3D mesh]
-    D[(MongoDB)] -. data fallback .-> J[JSON]
-    M -. asset fallback .-> GLB[Template GLB]
-    classDef core fill:#122c37,stroke:#42d9b5,color:#f4f7ff,stroke-width:1.5px
-    classDef output fill:#211f3e,stroke:#a79aff,color:#f4f7ff,stroke-width:1.5px
-    class API,R,OCR,G,GE,H,E core
-    class V,S,T,M,O output
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111827" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</p>
 
-*The generated 3D mesh and the talking-head video are separate output paths; 3D-mesh animation is a separate track from the SadTalker video workflow.*
-
-## Technical toolkit
-
-| Area | Tools I work with |
+| Focus area | Tools and concepts |
 |---|---|
-| **Languages** | Java, Python, C, JavaScript, TypeScript, Dart, SQL |
-| **Backend** | Spring Boot, FastAPI, Node.js, REST APIs, microservices, OAuth 2.0, JWT, RBAC |
-| **Frontend & mobile** | React, Next.js, Flutter, Tailwind CSS, HTML/CSS |
-| **Data** | PostgreSQL, MySQL, MongoDB, Redis, Firebase, Firebase Realtime Database |
-| **AI / ML** | LLM integrations, NLP, TensorFlow, PyTorch, Hugging Face Transformers, computer vision, OCR |
-| **Cloud & delivery** | Docker, GCP, AWS, Git, GitHub Actions, Postman, Jira |
+| **Backend** | REST API design, microservices, Spring Boot, FastAPI, Node.js, OAuth 2.0, JWT, RBAC |
+| **Data** | PostgreSQL, MySQL, MongoDB, Redis, Firebase, schema design, query optimization |
+| **AI / ML** | LLM integration, NLP, TensorFlow, PyTorch, Hugging Face, computer vision, OCR |
+| **Frontend / mobile** | React, Next.js, Flutter, Tailwind CSS, HTML/CSS |
+| **Engineering workflow** | Git, GitHub Actions, Docker, GCP, AWS, Postman, Jira |
 
 ## Leadership & recognition
 
-- **GDG ViMEET — Administrative Team Lead (Aug 2025–Jun 2026):** led a 30-member developer community, supported workshops and technical events, and helped grow campus participation in Google technologies by **20% year over year**.
 - **VAP ViSION 2026:** Institute-level Best Project for AACHARYA_AI.
 - **VAP ViSION 2025:** Best Application for Zhatpat.
 - **Google Cloud Campaign:** Tier One Winner.
+- **Springer Capital:** Letter of Recommendation from the Investment Director.
+- **GDG ViMEET — Administrative Team Lead (Aug 2025–Jun 2026):** helped lead a 30-member developer community, coordinated events, and contributed to 20% year-over-year growth in campus participation in Google technologies.
 - **Competitive programming:** 100+ problems solved across LeetCode, CodeChef, and Codeforces.
 
-## What I'm focused on
+## What I'm focused on next
 
-Backend engineering, scalable APIs, system design, reliable integrations, cloud infrastructure, and applied AI. I'm interested in **Software Development Engineer and backend-focused roles** where I can own problems end-to-end, learn from strong engineering teams, and show impact through shipped work.
+Writing maintainable backend services, understanding system design, improving production thinking, and building AI features with practical value. I enjoy tracing a problem from user need to architecture, implementation, and measurable outcome.
 
 <p align="center">
-  <b>Build carefully. Measure honestly. Keep improving.</b><br />
-  <a href="https://www.linkedin.com/in/omkarpatil29/">Connect on LinkedIn</a> · <a href="mailto:code.omkarp@gmail.com">Email me</a>
+  <strong>Good software is more than a demo. It is a system people can rely on.</strong><br /><br />
+  <a href="https://www.linkedin.com/in/omkarpatil29/">Connect on LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:code.omkarp@gmail.com">Email me</a> &nbsp;·&nbsp;
+  <a href="https://github.com/Omkarpatil-op?tab=repositories">Explore my code</a>
 </p>
